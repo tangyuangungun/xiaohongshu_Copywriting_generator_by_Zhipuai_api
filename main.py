@@ -12,7 +12,7 @@ submit = st.button("开始写作")
 if submit:
     with st.spinner("创作中，请稍等..."):
         result = generate_xiaohongshu(theme)
-st.write(result)
+    st.write(result)
     # st.divider()
     # left_column, right_column = st.columns(2)
     # with left_column:
